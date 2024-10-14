@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b4f4e4;
+}
+.container{
+    background-color: #fff;
+    padding: 2vw;
+    border-radius: 1vw; 
+    min-height: 40vh;
+    min-width: 30vh;
+}
+form{
+    margin: 2rem 0 2rem 0;
+
+}
+form select,button,input{
+    width:100%;
+    /* background-color: rgb(153, 93, 192); */
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+}
+form select{
+    background-color: black;
+    color: aquamarine;
+}
+.align{
+    padding:1.2rem;
+    /* background-color: #f300fe; */
+
+}
+form input{
+    border :2px solid lightcoral;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left:0.5rem;
+
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh;
+}
+.select-container img{
+    max-width: 2rem;
+}
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 3px solid lightcoral;
+    width: 6rem;
+    background-color: lightgray;
+}
+.options i{
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+.options select{
+    font-size: 1rem;    
+    width:auto;
+}
+.msg{
+    margin: 2rem 0;
+    text-align: center;
+    background-color:rgba(240, 128, 128, 0.473);
+}
+.Get{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 900;
+}
+form button{
+    height: 5vh;
+    font-size: 2vh;
+    color: #fff;
+    background-color: rgb(81, 37, 185);
+    cursor:grab;
+}
