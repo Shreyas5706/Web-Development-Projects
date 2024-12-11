@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.background {
+    background-image: url('Background-Image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position:sticky;
+    color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+
+}
+
+
+.middle {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.logo{
+    width:60%;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Product Sans', sans-serif;
+    justify-content: center;    
+}
+.searchbar{
+    width: 53%;
+    height: 6%;
+    background: white;
+    border-radius: 999px;
+    margin: 30px;
+    padding: 0;
+    color: grey;
+    /* gap: 20px; */
+}
+.searchicon{
+    width: 2%;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.inputbox{
+    display: inline-block;
+    width: 81%;
+}
+
+.input{
+    width: 100%;
+    /* height: 100%; */
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-size: 15px;
+    display: inline-block;
+
+}
+.lgs
+{
+    display: inline-block;
+    color: rgb(3, 73, 123);
+}
+.voice{
+    margin: 8px;
+}
+.bottom {
+    background-color: black;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.shortcuts{
+    display: flex;
+}
+.logoicons{
+    background: rgba(66, 71, 78, 1.00);
+    border-radius: 999px;
+    display: flex;
+    height: 60%;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.logoicons img{
+    width: 30px;
+    height: 30px;
+}
+.sts{
+    height: 90px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:8px;
+}
+
+.name{
+    height: 40%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.Add>.logoicons{
+    background-color: rgb(3, 73, 123);
+}
+.sts:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+    cursor: pointer;
+}
