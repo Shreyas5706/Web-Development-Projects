@@ -1,0 +1,28 @@
+##### 5th April 2025 #####
+        -- Done till 47:22 
+        -- Reamining from choose us 
+
+
+##### 9th April 2025 #####
+        -- Done till 1:21:10
+        -- Reamining from Show message (The message was not being displayed)
+
+        
+##### 10th April 2025 #####
+        -- Done till 1:47:27
+        -- Sending email in progress ( remaining from the else block )
+
+
+##### 11th April 2025 #####
+        -- Done till 2:19:45
+        -- Breakpoints For Larger devices (remaining from 1150px width)
+
+
+
+
+   
+
+fithit112000@gmail.com
+Fithit@200011
+
+
