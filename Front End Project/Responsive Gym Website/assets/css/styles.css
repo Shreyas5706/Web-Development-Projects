@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
 
+
 :root {
     --header-height: 3.5rem;
 
     /* Colors */
-    --first-color: rgb(183, 223, 44);
-    --first-color-light: rgb(222, 253, 100);
-    --first-color-alt: rgb(175, 219, 39);
-    --first-color-dark: rgb(168, 214, 33);
-    --first-color-gray: rgb(166, 168, 159);
-    --title-color: rgb(250, 251, 251);
-    --title-color-black: rgb(30, 31, 31);
-    --text-color: rgb(185, 187, 187);
-    --text-color-light: rgb(168, 170, 170);
-    --body-color: rgb(20, 22, 22);
+    --first-color: rgb(0, 204, 204); /* Soft Cyan */
+    --first-color-light: rgb(0, 180, 180); /* Lighter Cyan */
+    --first-color-alt: rgb(0, 190, 190); /* Slightly Light Cyan */
+    --first-color-dark: rgb(0, 150, 150); /* Dark Cyan */
+    --first-color-gray: rgb(105, 105, 105); /* Subtle Gray */
+    --title-color: rgb(250, 251, 251); /* Off White */
+    --title-color-black: rgb(20, 20, 20); /* Dark Text */
+    --text-color: rgb(180, 180, 180); /* Light Gray */
+    --text-color-light: rgb(150, 150, 150); /* Light Gray Text */
+    --body-color: rgb(0, 0, 0); /* Black Background */
 
     /* Font and typography */
-
     --body-font: 'Red Hat Display', sans-serif;
     --second-font: 'Kaushan Script', cursive;
     --biggest-font-size: 2rem;
@@ -33,7 +33,7 @@
     --font-bold: 700;
     --font-black: 900;
 
-    /* z index for overlaying layouts  */
+    /* z index for overlaying layouts */
     --z-tooltip: 10;
     --z-fixed: 100;
 }
@@ -51,6 +51,13 @@
         --smaller-font-size: .813rem;
     }
 }
+
+
+
+
+
+
+
 
 
 /* BASE (common for all html elements)*/
@@ -407,6 +414,7 @@ img {
 
 .program__img {
     width: 38px;
+    
 }
 
 .program__shape {
