@@ -1,124 +1,125 @@
+
 ========== HEADER ==========
 .nav__logo
-BEROTOT
+FITHIT
 
 .nav__link
 Home
 
 Program
 
-Choose Us
+Why Us
 
 Pricing
 
 .nav__button
-Register Now
+Join Now
 
 
 ========== HOME ==========
 .home__subtitle
-MAKE YOUR
+TRANSFORM YOUR
 
 .home__title
-BODY SHAPE
+BODY & MIND
 
 .home__description
-In here we will help you to shape and build your ideal 
-body and live your life to the fullest.
+We're here to guide you in building your dream body, 
+boosting confidence, and embracing a healthier lifestyle.
 
 .button
-Get Started
+Start Today
 
 
 ========== PROGRAM ==========
 .section__subtitle
-Our Program
+Explore Our plans 
 
 .section__title-border
-BUILD YOUR
+ACHIEVE
 
 .section__title
-BEST BODY
+YOUR GOALS
 
 .program__title | .program__description
-Flex Muscle
-Creating tension that's temporarily making the muscle 
-fibers smaller or contracted.
+Strength Training
+Build muscle and increase strength with focused 
+resistance and weight workouts.
 
-Cardio Exercise
-Exercise your heart rate up and keeps it 
-up for a prolonged period of time.
+HIIT Workouts
+Push your limits and burn fat fast with high-intensity 
+interval training sessions.
 
-Basic Yoga
-Diaphragmatic this is the most common breathing 
-technique you'll find in yoga.
+Mindful Yoga
+Relax, stretch, and enhance mental clarity with 
+guided breathing and poses.
 
-Weight Lifting
-Attempts a maximum weight single lift of a 
-barbell loaded with weight plates.
+Functional Fitness
+Improve daily movement and balance through 
+real-life motion exercises.
 
 
 ========== CHOOSE US ==========
 .section__subtitle
-Best Reason
+Top Reasons
 
 .section__title-border
 WHY
 
 .section__title
-CHOOSE US ?
+CHOOSE US?
 
 .choose__description
-Choose your favorite class and start now. Remember the 
-only bad workout is the one you didn't do.
+Pick your ideal program and begin your fitness journey. 
+The only workout you regret is the one you skipped.
 
 .choose__number | .choose__subtitle
-200+
-Total Members
+300+
+Happy Members
 
-50+
-Best trainers
+60+
+Certified Trainers
 
-25+
-Programs
+30+
+Unique Programs
 
-100+
-Awards
+150+
+Awards & Recognitions
 
 
 ========== PRICING ==========
 .section__subtitle
-Pricing
+Membership
 
 .section__title-border
 OUR
 
 .section__title
-SPECIAL PLAN
+PRICING PLANS
 
 .pricing__title | .pricing__number
-BASIC PACKAGE
-$120
+STARTER PACK
+₹1,499/month
 
-PREMIUM PACKAGE
-$240
+PRO PACK
+₹2,999/month
 
-DIAMOND PACKAGE
-$420
+ELITE PACK
+₹5,999/month
 
 .pricing__item
-5 Days In A Week
+Unlimited Gym Access
 
-01 Sweatshirt
+Welcome Fitness Kit
 
-01 Bottle of Protein
+Exclusive Member Video Library
 
-Access to Videos
+One-on-One Trainer Session
 
-Muscle Stretching
+Free Health & Body Composition Check
 
 .pricing__button
-Purchase Now
+Sign Up Now
 
 
 ========== CALCULATE  ==========
@@ -129,59 +130,59 @@ CALCULATE
 YOUR BMI
 
 .calculate__description
-The body mass index (BMI) calculator calculates 
-body mass index from your weight and height.
+Use our Body Mass Index calculator to discover 
+your fitness range and health category.
 
 .button
-Calculate Now
+Check Now
 
 * CALCULATE JS *
-// Check if the fields have a value
-	// Add and remove color
-	// Show message
-		Fill in the Height and Weight
-	// Remove message three seconds
+// Check input values
+	// Highlight fields
+	// Display alert
+		Please enter both Height and Weight
+	// Hide alert after 3 seconds
 
-// BMI Formula
+// BMI Computation
 
-// Show your health status
-	// Add color and display message
-		Your BMI is and you are skinny
-		Your BMI is and you are healthy
+// Show result with feedback
+	// Color-coded result display
+		Your BMI is and you are underweight
+		Your BMI is and you are fit
 		Your BMI is and you are overweight
 
-// To clear the input field
+// Reset input fields
 
-// Remove message four seconds
+// Clear result after 4 seconds
 
 
 ========== FOOTER ==========
 .footer__logo
-BEROTOT
+FITZONE
 
 .footer__description
-Subscribe for company <br> updates below.
+Stay updated with our latest news <br> and exclusive deals.
 
 .button
 Subscribe
 
 .footer__title | .footer__link
-SERVICES
-Flex Muscle
-Cardio Exercise
-Basic Yoga
-Weight Lifting
+PROGRAMS
+Strength Training
+HIIT Workouts
+Mindful Yoga
+Functional Fitness
 
-PRICING
-Basic
-Premium
-Diamond
+PLANS
+Starter
+Pro
+Elite
 
-COMPANY
-About Us
+ABOUT
+Our Story
 Careers
-Customers
-Partners
+Testimonials
+Affiliates
 
 .footer__social-link
 https://www.facebook.com/
@@ -189,29 +190,26 @@ https://twitter.com/
 https://www.instagram.com/
 
 .footer__copy
-&#169; Copyright Bedimcode. All rights reserved
+&#169; 2025 FITZONE. All rights reserved
 
 
 * FOOTER EMAIL JS *
-// Check if the field has a value
-	// Add and remove color
+// Check if email field is filled
+	// Add validation style
 
-	// Show message
-		You must enter your email
+	// Display message
+		Please enter a valid email
 
-	// Remove message three seconds
+	// Remove message after 3 seconds
 
-// serviceID - templateID - #form - publicKey
+// EmailJS configuration
 
-// Show message and add color
-	You registered successfully
+// Show success message
+	Subscription successful
 
-// Remove message after three seconds
+// Clear message after 3 seconds
 
-// Mail sending error
-	OOPS! SOMETHING HAS FAILED...
+// Handle errors
+	Sorry! Something went wrong...
 
-// To clear the input field
-
-
-
+// Reset email input field
