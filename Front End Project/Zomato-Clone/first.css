@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+   font-family: Okra, Helvetica, sans-serif;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-image: url(./81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    height: 60%;
+    margin-bottom: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-part-main {
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-part,
+.right-part,
+.investor-div,
+.add-restaurant,
+.profile,
+.user-name {
+    display: inline-block;
+}
+
+.left-part {
+    font-size: 12px;
+}
+
+.user-profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.right-part {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-left: 5px;
+}
+
+/* center part */
+.center-main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85%;
+    flex-direction: column;
+}
+
+.search-bar-div {
+    width: 50%;
+    background-color: white;
+    height: 13%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.location {
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search-icon {
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+input {
+    height: 100%;
+    font-size: 14px;
+    border: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.second {
+    width: 71%;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+.center-bar-top {
+    display: block;
+}
+
+.zomato-div {
+    font-size: 85px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+.discover-div {
+    font-size: 40px;
+    display: block;
+}
+
+/* main part */
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.middle-div {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
+
+.middle-card-1 {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: end;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid rgb(201, 199, 199);
+    background-size: cover;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.middle-card-1:hover,.middle-card-2:hover,.middle-card-3:hover{
+    transform: translate(5px,-3px);
+}
+.bottom-text {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom-text-top {
+    padding-top: 20px;
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    bottom: 25px;
+}
+
+.bottom-text-bottom {
+    position: relative;
+    bottom: 13px;
+    left: 20px;
+    color: grey;
+}
+
+
+/* third div */
+
+.third-div {
+    margin-top: 5%;
+    height: 55%;
+    width: 100%;
+}
+
+.slides-div {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.image-1 {
+    background-image: url(./image-1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16%;
+    height: 85%;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    margin-right: 18px;
+}
+.image-1:hover{
+    cursor: pointer;
+}
+
+.image-1-text-div{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+.image-1-text-top{
+    font-size: 20px;
+}
+
+.top-text{
+    color: black;
+    position: relative;
+    left: 16%;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+.collection-div{
+    font-size: 2.3rem;
+    margin-bottom: .6rem;
+}
+.left-text-div,.right-text-div{
+    display: inline-block;
+}
+.left-text-div{
+    font-size: 1.2rem;
+    color: grey;
+}
+.right-text-div{
+    position: relative;
+    left: 11%;
+    font-size: 1.1rem;
+    color:rgb(253, 102, 102);
+}
+/* fourth part */
+.fourth-part{
+    width: 100%;
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fourth-part-child{
+    width: 100%;
+    padding-left: 16%;
+}
+.select-grid{
+    display: grid;
+    grid-template-columns: repeat(3,26%);
+    column-gap: 10px;
+    width: 100%;
+    row-gap: 25px;
+}
+.fourth-part-heading{
+    font-size: 2rem;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.one{
+   height: 88%;
+   border: 1px solid rgb(232, 232, 232);
+   padding: 0.5em;
+   border-radius: 10px;
+   box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+.one-2{
+    margin-top: 10px;
+}
+.one-1{
+    font-size: 1.5rem;
+}
+.one:hover{
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+footer{
+   width: 100%;
+   margin-top: 8%;
+   color: black;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(255, 251, 247);
+}
+.end-part-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-image{
+    height: 30em;
+}
+.end-part-end-div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.get-app-div-top{
+    font-size: 2.8rem;
+}
+.get-app-div-bottom{
+    font-size: large;
+    font-weight: 300;
+    color: #363636;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+.get-app-div{
+    width: 90%;
+
+}
+label{
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    font-weight:200;
+}
+.input-email{
+    background-color: white;
+    border: 1px grey solid;
+    height: 2.8rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+.input-email::placeholder{
+    font-size: 1.2rem;
+    color: rgb(206, 204, 204);
+    font-weight: 100;
+}
+.input-email:focus{
+    border: 2px solid #EF4F5F;
+}
+.share-app-button{
+    padding: 0.9rem;
+    font-size: 1rem;
+    background-color: #EF4F5F;
+    border: none;
+    color: white;
+    border-radius: 0.4rem;
+    font-weight: 100;
+}
+.last-part-last-text{
+    color: #9c9c9c;
+    font-weight: 100;
+}
+.playstore-image,.appstor-image{
+    height: 2.5rem;
+    padding-right: 1rem;
+}
+.last-part-last-text{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.log-in-div-top{
+    padding-bottom: 1rem;
+}
